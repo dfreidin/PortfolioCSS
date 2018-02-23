@@ -3,16 +3,21 @@
 }
 #wrapper {
     width: 1150px;
-    background-color: #6f5964;
+    background: radial-gradient(#a28c97, #1b0b0f)
 }
 h1 {
     font-family: "Comic Sans", cursive;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin: 5px, 20px; */
 }
 h2 {
     display: inline-block;
     margin-left: 500px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     text-align: right;
     vertical-align: middle;
 }
@@ -21,13 +26,19 @@ h2 {
     position: relative;
     margin-bottom: 20px;
 }
+.upper {
+    height: 330px;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 #headshot {
     padding: 5px;
-    width: 500px;
+    background-color: lightgray;
 }
 #about {
     display: inline-block;
-    width: 500px;
+    width: 550px;
     vertical-align: top;
 }
 a {
@@ -38,8 +49,8 @@ a {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 h3 {
@@ -58,7 +69,10 @@ h4 {
 }
 p {
     margin: 10px;
-    font-size: 14pt;
+    font-size: 13pt;
+}
+.desc {
+    text-align: justify;
 }
 .details {
     width: 350px;
@@ -76,9 +90,6 @@ p {
     padding: 5px;
 }
 button {
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* width: auto; */
     background-color: #407d61;
     font-size: 16px;
     color: white;
@@ -87,9 +98,11 @@ button {
     border: 1px solid black;
     margin-bottom: 20px;
     margin-left: 35%;
+    box-shadow: 3px 3px 8px 3px darkgray;
 }
 #footer {
     background-color: #f9f9f9;
+    padding-top: 2px;
 }
 .contact {
     text-align: center;
