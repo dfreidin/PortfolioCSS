@@ -1,0 +1,100 @@
+* {
+    font-family: sans-serif;
+}
+#wrapper {
+    width: 1150px;
+    background-color: #6f5964;
+}
+h1 {
+    font-family: "Comic Sans", cursive;
+    display: inline-block;
+    margin-left: 20px;
+}
+h2 {
+    display: inline-block;
+    margin-left: 500px;
+    text-align: right;
+    vertical-align: middle;
+}
+#header {
+    background: linear-gradient(#f1f1f1, #ffffff);
+    position: relative;
+    margin-bottom: 20px;
+}
+#headshot {
+    padding: 5px;
+    width: 500px;
+}
+#about {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+a {
+    text-decoration: underline;
+}
+.box {
+    background: linear-gradient(to right, #ffffff, #dacbd9);
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+h3 {
+    background: linear-gradient(#b4b4b4, #888888, #b4b4b4);
+    color: #fefefe;
+    margin: 0px;
+    padding: 10px;
+    font-size: 18pt;
+}
+h4 {
+    background: linear-gradient(#b4b4b4, #888888, #b4b4b4);
+    color: #fefefe;
+    margin: 0px;
+    padding: 10px;
+    font-size: 16pt;
+}
+p {
+    margin: 10px;
+    font-size: 14pt;
+}
+.details {
+    width: 350px;
+}
+.box.details {
+    height: 700px;
+}
+.tech {
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0px;
+}
+.icon {
+    width: 55px;
+    padding: 5px;
+}
+button {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: auto; */
+    background-color: #407d61;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+#footer {
+    background-color: #f9f9f9;
+}
+.contact {
+    text-align: center;
+}
+.logo {
+    display: inline-block;
+    width: 20px;
+}
